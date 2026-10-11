@@ -286,3 +286,15 @@ footer {
   }
 }
 
+/* Resume buttons */
+.resume-btn {
+  display: inline-block;
+  margin: 12px 6px 0;
+  text-decoration: none;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.resume-btn:hover {
+  transform: translateY(-3px);
+}
+
